@@ -1,0 +1,78 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f2f4f5;
+}
+
+.navbar{
+background-color: slategray;
+padding: 1rem; 
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem; 
+}
+.navbar a:hover{
+    background-color:#2e3b4d;
+}
+
+.perfil-doctor{
+    background-color:white;
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.boton{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; 
+}
+#nombre-doctor{
+    Color:#4ac197;
+    font-weight: 200;
+    font-size: 30px !important;
+   
+}
+#desc-Doc{
+    color: #333333 ;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comentarios h3{
+     background-color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1%;
+}
+.comentarios{
+    padding: 2rem;
+    text-align: center;
+}
+.comentarios-pacientes{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid; 
+    width: 300px;
+    
+}
+.comments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
