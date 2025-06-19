@@ -71,7 +71,6 @@ flex-wrap: wrap;
 }
 .comments{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
     margin-top: 20px;
