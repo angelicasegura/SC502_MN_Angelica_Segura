@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class=" container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+
+            </div>
+        </div>
+        <div class="container mb-4">
+            <h1>Ejercicio 1: Cargas Sociales</h1>
+            <form id="formulario_Salario">
+
+                <div class="mb-3">
+                    <label for="salario" class="form-label">Salario Bruto</label>
+                    <input type="number" class="form-control" id="salario" name="salario"
+                        placeholder="Ingrese su salario bruto">
+
+                </div>
+                <div class="mb-3">
+                    <button type="button" id="btn_calcular" class="btn btn-primary w-100">
+                        Calcular Salario
+                    </button>
+
+                </div>
+                <div class="mb-3">
+                    <label for="cargasSociales" class="form-label">Cargas Sociales</label>
+                    <input type="text" class="form-control" id="cargasSociales" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="impuestos" class="form-label">Impuestos sobre la renta</label>
+                    <input type="text" class="form-control" id="impuestos" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="salarioNeto" class="form-label">Salario Neto</label>
+                    <input type="text" class="form-control" id="salarioNeto" readonly>
+                </div>
+
+            </form>
+        </div>
+        <div>
+            <h1>Ejercicio 2</h1>
+            <div>
+                <div>
+                    <p id="parrafo">
+                        Texto sin cambiar
+                    </p>
+                </div>
+                <div class="mb-3">
+                    <button type="button" id="btn_cambiarTexto" class="btn btn-primary w-100">
+                        Cambiar Texto del parrafo
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="container mb-6">
+            <h1>Ejercicio 3 Estructura de control de flujo</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-sm-8">
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="number" class="form-control" id="edad" name="edad" placeholder="Ingrese su edad">
+
+                    </div>
+                    <div class="mb-3">
+                        <button type="button" id="btn_edad" class="btn btn-info w-100">
+                            Verificar edad
+                        </button>
+
+                    </div>
+                    <p id="resultado" class="text-center fw-bold"> </p>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row ">
+            <div class="container mb-4">
+                <h1>Ejercicio 4 Manipulacion de Arreglos</h1>
+                <div id="listaEstudiantes">
+
+                </div>
+                <div id="promedio">
+                    <h4>
+                        Promedio de estudiantes
+                    </h4>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
