@@ -38,13 +38,12 @@ const crearTarjeta = () => {
     console.log('mi funcion cargar tarjeta');
     const form = document.querySelector('#formulario')
     const formData = new FormData(form);
-    //console.log(Object.fromEntries(formData.entries()));
     const entries = Object.fromEntries(formData.entries());
     const { titulo, descripcion, boton, imagen } = entries;
     const jsonEntries = JSON.stringify(entries);
     const objectEntries = JSON.parse(jsonEntries);
 
-
+//CREAR NUEVA TARJETA
     const nuevaTarjeta = { titulo, descripcion, boton, imagen };
     console.log(nuevaTarjeta);
     tarjetas.push(nuevaTarjeta);
@@ -56,11 +55,6 @@ const crearTarjeta = () => {
     //console.log(jsonEntries);
     //console.log(objectEntries);
 }
-
-
-
-
-
 
 
 
