@@ -1,0 +1,14 @@
+ESTADO DE CUENTA
+ID: 1
+         Compra Walmart -  ₡25000
+ID: 2
+         Gasolina -  ₡30000
+ID: 3
+         Restaurante Mcdonals -  ₡6000
+ID: 4
+         Compra en Zara -  ₡15000
+-Detalle
+Monto total de contado:  ₡76000
+Monto con intereses del 2.6%:  ₡77976
+Cashback del 0.1%:  ₡76
+Monto final a pagar:  ₡77900
